@@ -7,7 +7,7 @@
 
 ### 第二届开源操作系统年度技术会议
 * 2014年10月17日 北京清华大学  
-* http://soft.cs.tsinghua.edu.cn/os2atc2014/ 
+http://soft.cs.tsinghua.edu.cn/os2atc2014/
 
 ### 第三届开源操作系统年度技术会议
 * 2015年11月28日 北京清华大学  
