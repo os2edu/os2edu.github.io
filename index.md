@@ -37,6 +37,6 @@
 * 2021-12-26 中国科学院软件研究所  
 * <https://www.bagevent.com/event/7946359>
 
-### Website links
-* 开源操作系统年度技术会议官网 [https://os2atc.cn](https://os2atc.cn)
-* 开源操作系统技术教育培训官网 [https://os2edu.cn](https://os2edu.cn)
+### 官网链接
+* 开源操作系统年度技术会议 [https://os2atc.cn](https://os2atc.cn)
+* 开源操作系统技术教育培训 [https://os2edu.cn](https://os2edu.cn)
