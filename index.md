@@ -38,5 +38,5 @@
 * <https://www.bagevent.com/event/7946359>
 
 ### Website links
-* 开源操作系统年度技术会议官网 [http://os2atc.cn](http://os2atc.cn)
-* 开源操作系统技术教育培训官网 [http://os2edu.cn](http://os2edu.cn)
+* 开源操作系统年度技术会议官网 [https://os2atc.cn](https://os2atc.cn)
+* 开源操作系统技术教育培训官网 [https://os2edu.cn](https://os2edu.cn)
