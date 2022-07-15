@@ -3,6 +3,9 @@
 ### 报名网站
 <https://rust.os2edu.cn>
 
+### 2022开源操作系统训练营排行榜
+<https://os2edu.cn/grading>
+
 ## 开源操作系统年度技术会议 OS2ATC
 开源操作系统年度技术会议历年网站（2013 - 2021） 
 
@@ -42,6 +45,5 @@
 * <https://www.bagevent.com/event/7946359>
 
 ### 官网链接
-* 开源操作系统年度技术会议 [https://os2atc.cn](https://os2atc.cn)
 * 开源操作系统技术教育培训 [https://os2edu.cn](https://os2edu.cn)
 
