@@ -47,3 +47,7 @@
 ### 官网链接
 * 开源操作系统技术教育培训 [https://os2edu.cn](https://os2edu.cn)
 
+### 参与开发
+* 请加李明老师的微信号 limingth
+
+
