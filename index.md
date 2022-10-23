@@ -2,6 +2,10 @@
 ## 开源操作系统培训
 ### 报名网站
 <https://rust.os2edu.cn>
+<https://os2edu.cn/course> （正在开发，推荐试用）
+
+### 社区主页（筹建）
+<https://os2edu.cn/homepage>
 
 ### 2022开源操作系统训练营排行榜
 <https://os2edu.cn/grading>
