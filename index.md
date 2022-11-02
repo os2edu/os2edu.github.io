@@ -1,15 +1,17 @@
 
-## 开源操作系统培训
-### 报名网站
-<https://rust.os2edu.cn>  （初始版本，不再维护）
+## 开源操作系统社区
 
-<https://os2edu.cn/course> （正在开发，推荐试用）
-
-### 社区主页（筹建）
+### 社区主页（正在建设）
 <https://os2edu.cn/homepage>
 
-### 2022开源操作系统训练营排行榜
-<https://os2edu.cn/grading>
+### 课程培训报名网站
+<https://os2edu.cn/course> 
+
+### 社区排行榜
+<https://os2edu.cn/ranking>
+
+#### 参与网站开发
+* 如果你熟悉Web开发，精通react/spring技术栈，有时间为社区贡献代码，请加李明老师的微信号 limingth
 
 ## 开源操作系统年度技术会议 OS2ATC
 开源操作系统年度技术会议历年网站（2013 - 2021） 
@@ -50,9 +52,6 @@
 * <https://www.bagevent.com/event/7946359>
 
 ### 官网链接
-* 开源操作系统技术教育培训 [https://os2edu.cn](https://os2edu.cn)
-
-### 参与开发
-* 请加李明老师的微信号 limingth
+* 开源操作系统社区 [https://os2edu.cn](https://os2edu.cn)
 
 
