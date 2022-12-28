@@ -54,4 +54,5 @@
 ### 官网链接
 * 开源操作系统社区 [https://os2edu.cn](https://os2edu.cn)
 
-
+---
+<https://os2edu.cn> 京ICP备16045052号-11
