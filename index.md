@@ -1,11 +1,11 @@
 
-## 开源操作系统社区
-
-### 社区主页（正在建设）
-<https://os2edu.cn/homepage>
+## 开源操作系统培训
 
 ### 课程培训报名网站
 <https://os2edu.cn/course> 
+
+### 开源操作系统社区主页（正在建设）
+<https://os2edu.cn/homepage>
 
 ### 社区排行榜
 <https://os2edu.cn/ranking>
