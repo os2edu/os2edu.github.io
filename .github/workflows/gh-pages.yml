@@ -1,0 +1,32 @@
+name: Github Pages Workflow
+
+on:
+  # schedule:
+  #   - cron: '0 */1 * * *'
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: deploy-building
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: install nodejs
+        uses: actions/setup-node@v3.0.0
+        with:
+          node-version: '16.x'
+      - name: install pkg
+        run: |
+          npm install yarn -g
+          yarn install
+      - name: build pages
+        run: yarn build
+      - name: GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.0.0
+        with:
+          target_branch: gh-pages
+          build_dir: docs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
