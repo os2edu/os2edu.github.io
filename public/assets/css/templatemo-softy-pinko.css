@@ -33,10 +33,64 @@ font & reset css
 reset
 --------------------------------------------- 
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
-s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -64,13 +118,20 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
   display: block;
 }
 
@@ -78,7 +139,8 @@ header, nav, section, article, aside, footer, hgroup {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   background-color: #fff;
@@ -92,7 +154,12 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -306,16 +373,21 @@ img {
 }
 
 @media (max-width: 991px) {
-  html, body {
+
+  html,
+  body {
     overflow-x: hidden;
   }
+
   .mobile-top-fix {
     margin-top: 30px;
     margin-bottom: 0px;
   }
+
   .mobile-bottom-fix {
     margin-bottom: 30px;
   }
+
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
@@ -408,7 +480,7 @@ header
 }
 
 .header-area .main-nav {
-  box-shadow: 1px 1px 15px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
   min-height: 80px;
   background: #fff;
@@ -441,6 +513,7 @@ header
 .header-area .main-nav .logo-key {
   color: #8362EE;
 }
+
 .header-area .main-nav .logo-content {
   color: #333;
 }
@@ -603,11 +676,13 @@ header
   .header-area .main-nav .logo {
     font-size: 22px;
   }
+
   .header-area .main-nav .nav li {
     padding-left: 12px;
     padding-right: 12px;
     width: 86px;
   }
+
   .header-area .main-nav:before {
     display: none;
   }
@@ -620,20 +695,25 @@ header
     box-shadow: none;
     text-align: center;
   }
+
   .header-area .container {
     padding: 0px;
   }
+
   .header-area .main-nav .logo {
     /* margin-top: 27px !important; */
     font-size: 22px;
     margin-left: 20px;
   }
+
   .header-area .menu-trigger {
     display: block !important;
   }
+
   .header-area .main-nav {
     overflow: hidden;
   }
+
   .header-area .main-nav .nav {
     float: none;
     width: 100%;
@@ -645,12 +725,15 @@ header
     margin-left: 0px;
     height: 0;
   }
+
   .header-area .main-nav .nav.active {
     height: 358px;
   }
+
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
   }
+
   .header-area .main-nav .nav li {
     width: 100%;
     background: #fff;
@@ -658,6 +741,7 @@ header
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+
   .header-area .main-nav .nav li a {
     height: 50px !important;
     line-height: 50px !important;
@@ -666,6 +750,7 @@ header
     background: #fff !important;
     color: #3B566E;
   }
+
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
   }
@@ -679,6 +764,7 @@ header
   .header-area-pc {
     overflow: hidden;
   }
+
   .header-area-pc.header-sticky {
     min-height: unset;
     position: unset;
@@ -691,6 +777,7 @@ header
     max-width: unset;
     padding: 0;
   }
+
   .header-area-pc .main-nav {
     min-height: unset;
     height: 56px;
@@ -711,16 +798,20 @@ header
     height: 46px;
 
   }
+
   .header-area-pc .main-nav .logo-content {
     font-size: 18px;
     font-weight: bold;
   }
+
   .header-area-pc.header-sticky .logo {
     margin-top: 0;
   }
+
   .header-area-pc.header-sticky .nav {
     margin-top: 0 !important;
   }
+
   .header-area .main-nav .nav li {
     padding-left: 18px;
     padding-right: 18px;
@@ -738,11 +829,11 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.webp);
-  /* background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 100%); */
+  background: linear-gradient(to right, #a759d1 30%, #8261ee);
+  /* background-image: url(../images/banner-bg.webp); */
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; 
+  background-size: cover;
   height: 100vh;
   margin-top: -80px;
 }
@@ -780,14 +871,17 @@ welcome
     transform: perspective(1px) translateY(-60%) !important;
     text-align: center;
   }
+
   .welcome-area .header-text h1 {
     text-align: center;
     color: #fff;
     margin-bottom: 15px;
   }
+
   .welcome-area .header-text h1 span {
     color: #fff;
   }
+
   .welcome-area .header-text p {
     text-align: center;
     color: #fff;
@@ -800,11 +894,13 @@ welcome
     top: 65% !important;
     transform: perspective(1px) translateY(-60%) !important;
   }
-   .welcome-area .header-text h1 {
+
+  .welcome-area .header-text h1 {
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 15px;
   }
+
   .welcome-area .header-text p {
     margin-bottom: 20px;
   }
@@ -818,23 +914,28 @@ welcome
   .welcome-area {
     margin-bottom: 100px;
   }
+
   .welcome-area .header-text {
     top: 50% !important;
     transform: perspective(1px) translateY(-50%) !important;
     text-align: center;
   }
+
   .welcome-area .header-text .buttons {
     display: none;
   }
+
   .welcome-area .header-text h1 {
     font-weight: 600;
     font-size: 24px !important;
     line-height: 30px !important;
     margin-bottom: 30px !important;
   }
+
   .welcome-area .header-text h1 span {
     color: #fff;
   }
+
   .welcome-area .header-text p {
     text-align: center;
     color: #fff;
@@ -961,7 +1062,8 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.webp);
+  background: linear-gradient(to right, #a759d1 30%, #8e65eb);
+  /* background-image: url(../images/work-process-bg.webp); */
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -1085,7 +1187,8 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(../images/fun-facts-bg.webp);
+  background: linear-gradient(to right, #a759d1 30%, #8e65eb);
+  /* background-image: url(../images/fun-facts-bg.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1177,34 +1280,42 @@ parallax & home seperator
     padding-bottom: 60px;
     min-height: auto;
   }
+
   .parallax .content {
     position: relative !important;
     top: 0% !important;
     transform: perspective(1px) translateY(0%) !important;
   }
+
   .counter {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .counter .content {
     position: relative !important;
     top: 0% !important;
     transform: perspective(1px) translateY(0%) !important;
   }
+
   .counter .content .count-item {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .counter .content .count-item:hover strong {
     margin-top: 0px;
   }
+
   .counter .content .count-item:before {
     display: none;
   }
+
   .counter .content .count-item:after {
     display: none;
   }
+
   .counter .content .count-item strong {
     margin-top: 0px;
   }
@@ -1254,6 +1365,7 @@ team
   margin-left: 25px;
   float: left;
 }
+
 .team-item .user-image::before {
   content: '头像';
   width: 100%;
@@ -1459,7 +1571,15 @@ blog
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  /* background-color: #cb9de3; */
+  background: #fff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 30px;
 }
+
 .blog-post-thumb .blog-content .blog-content-summary {
   flex: 1;
 }
@@ -1492,6 +1612,7 @@ blog
   line-height: 26px;
   margin-bottom: 15px;
   height: 52px;
+  padding: 0 10px;
   overflow: hidden;
   text-align: left;
   display: -webkit-box;
@@ -1509,7 +1630,7 @@ blog
   padding-left: 30px;
 }
 
-.blog-post-thumb a.main-button  {
+.blog-post-thumb a.main-button {
   margin-top: 10px;
   display: inline-block;
 }
@@ -1595,7 +1716,7 @@ footer .social li {
 
 footer .social li a {
   color: #9d5bd9;
-   text-align: center;
+  text-align: center;
   background-color: #fff;
   width: 36px;
   height: 36px;
@@ -1616,7 +1737,7 @@ footer .social li a:hover {
 
 footer .copyright {
   text-align: center;
-  border-top: 1px solid rgba(250,250,250,0.2);
+  border-top: 1px solid rgba(250, 250, 250, 0.2);
   margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1632,9 +1753,11 @@ footer .copyright {
   footer .text {
     margin-bottom: 30px;
   }
+
   footer h5 {
     margin-bottom: 15px;
   }
+
   footer .footer-nav {
     margin-bottom: 30px;
   }
@@ -1669,7 +1792,7 @@ preloader
   height: 50px;
 }
 
-#preloader .jumper > div {
+#preloader .jumper>div {
   background-color: #fff;
   width: 10px;
   height: 10px;
@@ -1684,12 +1807,12 @@ preloader
   animation: jumper 1s 0s linear infinite;
 }
 
-#preloader .jumper > div:nth-child(2) {
+#preloader .jumper>div:nth-child(2) {
   -webkit-animation-delay: 0.33333s;
   animation-delay: 0.33333s;
 }
 
-#preloader .jumper > div:nth-child(3) {
+#preloader .jumper>div:nth-child(3) {
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
 }
@@ -1697,6 +1820,7 @@ preloader
 .preloader {
   transition: all .6s ease-out;
 }
+
 .preloader-hide {
   opacity: 0;
   visibility: hidden;
@@ -1708,9 +1832,11 @@ preloader
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   5% {
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -1724,9 +1850,11 @@ preloader
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   5% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
