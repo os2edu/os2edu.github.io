@@ -7,7 +7,7 @@ const Footer = () => {
     const links: { label: string, icon: string, url: string, type: 'img' | 'char' }[] = [
         {
             label: '清华大学开源操作系统研究组',
-            icon: '/public/assets/images/qinghua.png',
+            icon: '/assets/images/qinghua.png',
             url: 'https://os.cs.tsinghua.edu.cn',
             type: 'img'
         }, {
@@ -22,12 +22,12 @@ const Footer = () => {
             type: 'char'
         }, {
             label: '开源操作系统年度技术会议',
-            icon: '/public/assets/images/os2atc.png',
+            icon: '/assets/images/os2atc.png',
             url: 'https://os2atc.cn',
             type: 'img'
         }, {
             label: '开源操作系统训练营',
-            icon: '/public/assets/images/github.png',
+            icon: '/assets/images/github.png',
             url: 'https://github.com/LearningOS',
             type: 'img'
         }
